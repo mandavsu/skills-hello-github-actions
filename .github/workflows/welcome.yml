@@ -5,3 +5,7 @@ on:
 permissions:
   pull-requests: write
 jobs:
+    Test-Job:
+        runs-on: ubuntu-latest
+        steps:
+          - run: echo "whoami"
