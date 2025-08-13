@@ -9,3 +9,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - run: echo "whoami"
+          - name: this is test
+            run: echo "hello"
